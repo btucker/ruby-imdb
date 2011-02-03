@@ -35,7 +35,7 @@ Usage
     s = IMDB::Search.new
     s.movie("fear and loathing in las vegas").each do
       |result|
-      movie = IMDB::Movie.new(result.id)
+      movie = IMDB::Movie.new(result.imdb_id)
       p movie.title
       movie.cast.each do
         |cast|
