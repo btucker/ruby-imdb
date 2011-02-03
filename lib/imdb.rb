@@ -13,7 +13,7 @@ class Array
 end
 
 
-require "configuration"
+require "imdb/configuration"
 require "imdb/skeleton"
 require "imdb/search"
 require "imdb/movie"
